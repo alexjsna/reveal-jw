@@ -8,7 +8,7 @@
 
 		<link rel="stylesheet" href="dist/reset.css">
 		<link rel="stylesheet" href="dist/reveal.css">
-		<link rel="stylesheet" href="dist/theme/black.css">
+		<link rel="stylesheet" href="dist/theme/white.css">
 
 		<!-- Theme used for syntax highlighted code -->
 		<link rel="stylesheet" href="plugin/highlight/monokai.css">
@@ -16,8 +16,17 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+				<section>
+					<h3>Scheduled Saturdays for December:</h3>
+					<ul>
+						<li>12/03/22</li>
+						<li>12/17/22</li>
+						<li>12/31/22</li>
+					</ul>
+					<h5>*As always, we will do everything we can to avoid working Saturdays</h5>
+				</section>
+				<section><h1>Safety is always our #1 priority.</h1></section>
+				<section><img class="stretch" src="iowa_state.JPG"></section>
 			</div>
 		</div>
 
@@ -31,10 +40,11 @@
 			// - https://revealjs.com/config/
 			Reveal.initialize({
 				hash: true,
-				autoSlide: 5000,
+				autoSlide: 15000,
 				loop: true,
 				controls: false,
 				mouseWheel: true,
+				center: true,
 				// Learn about plugins: https://revealjs.com/plugins/
 				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
 			});
